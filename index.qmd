@@ -2,6 +2,9 @@
 title: "Coding Conundrums"
 ---
 
-Welcome to Coding Conundrums! Coding Conundrums is a monthly informal seminar focusing on increasing efficiency and reproducible research within `R` at the University of Sydney. Each month we focus on a package or workflow within `R` with a live demonstration. Code is available on github after each session.  
+Welcome to Coding Conundrums! 
+
+Coding Conundrums is a monthly informal seminar focusing on increasing efficiency and reproducible research within `R` at the University of Sydney. Each month we focus on a package or workflow with a live demonstration in `R`. 
+Code is available on github after each session.  
 
 

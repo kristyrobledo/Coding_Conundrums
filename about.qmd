@@ -2,8 +2,4 @@
 title: "About"
 ---
 
-About this site
-
-```{r}
-1 + 1
-```
+Coding Conundrums was started in 2020 by Kristy Robledo at the NHMRC Clinical Trials Centre, University of Sydney. It started just within the CTC, and grew to covering researchers within the School of Public Health, then the Faculty of Medicine and Health, and lastly any interested researcher at the University of Sydney.

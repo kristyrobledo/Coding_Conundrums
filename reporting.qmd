@@ -1,0 +1,9 @@
+---
+title: "Reproducible reporting in R"
+---
+
+# Presentations
+
+# Reporting using Rmarkdown (outputing in Word)
+
+# Reporting using Quarto

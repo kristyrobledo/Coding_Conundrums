@@ -10,11 +10,15 @@ website:
         text: Home
       - about.qmd
 
+      - cleaning.qmd
+      - reporting.qmd
+
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
+    code-fold: true
 
 editor: visual
 
