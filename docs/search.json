@@ -4,6 +4,6 @@
     "href": "index.html",
     "title": "Coding Conundrums",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "Welcome to Coding Conundrums! Coding Conundrums is a monthly informal seminar focusing on increasing efficiency and reproducible research within R at the University of Sydney. Each month we focus on a package or workflow within R with a live demonstration. Code is available on github after each session."
   }
 ]

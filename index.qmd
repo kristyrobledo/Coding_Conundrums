@@ -2,10 +2,6 @@
 title: "Coding Conundrums"
 ---
 
-This is a Quarto website.
+Welcome to Coding Conundrums! Coding Conundrums is a monthly informal seminar focusing on increasing efficiency and reproducible research within `R` at the University of Sydney. Each month we focus on a package or workflow within `R` with a live demonstration. Code is available on github after each session.  
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
-```{r}
-1 + 1
-```
