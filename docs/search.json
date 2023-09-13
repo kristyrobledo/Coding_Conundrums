@@ -4,6 +4,20 @@
     "href": "index.html",
     "title": "Coding Conundrums",
     "section": "",
-    "text": "Welcome to Coding Conundrums! Coding Conundrums is a monthly informal seminar focusing on increasing efficiency and reproducible research within R at the University of Sydney. Each month we focus on a package or workflow within R with a live demonstration. Code is available on github after each session."
+    "text": "Welcome to Coding Conundrums!\nCoding Conundrums is a monthly informal seminar focusing on increasing efficiency and reproducible research within R at the University of Sydney. Each month we focus on a package or workflow with a live demonstration in R. Code is available on github after each session."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Coding Conundrums was started in 2020 by Kristy Robledo at the NHMRC Clinical Trials Centre, University of Sydney. It started just within the CTC, and grew to covering researchers within the School of Public Health, then the Faculty of Medicine and Health, and lastly any interested researcher at the University of Sydney."
+  },
+  {
+    "objectID": "reporting.html",
+    "href": "reporting.html",
+    "title": "Reproducible reporting in R",
+    "section": "",
+    "text": "Presentations\n\n\nReporting using Rmarkdown (outputing in Word)\n\n\nReporting using Quarto"
   }
 ]
