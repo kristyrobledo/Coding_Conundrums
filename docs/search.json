@@ -1,5 +1,19 @@
 [
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Coding Conundrums was started in 2020 by Kristy Robledo at the NHMRC Clinical Trials Centre, University of Sydney. It started just within the CTC, and grew to covering researchers within the School of Public Health, then the Faculty of Medicine and Health, and lastly any interested researcher at the University of Sydney."
+  },
+  {
+    "objectID": "access.html",
+    "href": "access.html",
+    "title": "Accessing data in R",
+    "section": "",
+    "text": "Redcap data in R (December 2023)"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Coding Conundrums",
@@ -7,11 +21,11 @@
     "text": "Welcome to Coding Conundrums!\nCoding Conundrums is a monthly informal seminar focusing on increasing efficiency and reproducible research within R at the University of Sydney. Each month we focus on a package or workflow with a live demonstration in R. Code is available on github after each session."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "other.html",
+    "href": "other.html",
+    "title": "Other functions",
     "section": "",
-    "text": "Coding Conundrums was started in 2020 by Kristy Robledo at the NHMRC Clinical Trials Centre, University of Sydney. It started just within the CTC, and grew to covering researchers within the School of Public Health, then the Faculty of Medicine and Health, and lastly any interested researcher at the University of Sydney."
+    "text": "Secret santa in R (December 2023)\nBelow details a function to randomly allocate people in a list to another person for secret santa!\n\n\nCode\nsecret_santa &lt;-function(npeople, names){\n\n  # this 'flag' is used to determine if the\n  # function stays in or out of the while function\n  flag = \"bad\"\n\n  # first list of names\n  namelist1 = matrix(names, ncol = 1, nrow = npeople)\n  fam = matrix(ncol = 1, nrow = npeople, NA)\n\n  while (flag == \"bad\"){\n\n    # names to choose from\n    namelist2 = matrix(ncol = 1, nrow = npeople, NA)\n\n    for (i in 1:npeople){\n      #pick the first name\n      if (i==1){\n        xx2 = sample(names, (npeople-i+1), replace=FALSE)\n      } else\n        xx2 = sample(xx2, (npeople-i+1), replace=FALSE)\n\n      if (i == npeople & xx2[1]==namelist1[i,1]){\n        flag = \"bad\"\n\n      }else if(xx2[1]!= namelist1[i,1]){\n        namelist2[i,1] = xx2[1]\n        flag = \"good\"\n      } else{\n        namelist2[i,1] = xx2[2]\n        flag = \"good\"\n      }\n\n      #set up the new matrix with one less name\n      used = which(xx2==namelist2[i])\n      xx2[used] = \"zzzzz\"\n      xx2 = sort(xx2)[1:(npeople-i)]\n    }\n\n    #flag\n    #add \"has\" to the matrix\n    has = matrix(ncol=1, nrow = npeople, \"has\")\n\n    #build the final matrices\n    final = cbind(namelist1, has, namelist2)\n    #the final results\n    #final\n\n  }\n  final\n}\n\n\n\n\nCode\nnam&lt;-c(\"A\", \"B\", \"C\", \"D\")\n\nsecret_santa(npeople=4, names=nam)\n\n\n     [,1] [,2]  [,3]\n[1,] \"A\"  \"has\" \"B\" \n[2,] \"B\"  \"has\" \"A\" \n[3,] \"C\"  \"has\" \"D\" \n[4,] \"D\"  \"has\" \"C\""
   },
   {
     "objectID": "reporting.html",
