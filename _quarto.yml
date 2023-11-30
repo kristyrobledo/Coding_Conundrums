@@ -10,8 +10,10 @@ website:
         text: Home
       - about.qmd
 
+      - access.qmd
       - cleaning.qmd
       - reporting.qmd
+      - other.qmd
 
 format:
   html:
